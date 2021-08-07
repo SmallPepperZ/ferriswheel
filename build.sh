@@ -4,5 +4,5 @@ git fetch
 git reset --hard origin/main
 chmod +x ./build.sh
 python3 -m build
-twine upload dist/*
+twine upload --config-file pypi-credentials.txt dist/*
 chown -R gxhut /home/gxhut/ferriswheel
