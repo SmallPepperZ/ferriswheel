@@ -11,7 +11,7 @@ setuptools.setup(name='ferriswheel',
           'emoji',
       ],
       project_urls={
-        "Bug Tracker": "https://github.com/randomairborne/ferriswheel",
+        "Bug Tracker": "https://github.com/randomairborne/ferriswheel/issues",
       },
       classifiers=[
         "Programming Language :: Python :: 3",
