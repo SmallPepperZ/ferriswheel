@@ -1,6 +1,6 @@
-from setuptools import setup
+import setuptools
 
-setup(name='ferriswheel',
+setuptools.setup(name='ferriswheel',
       version='0.1',
       description='https://ferris.chat API library',
       url='http://github.com/randomairborne/ferriswheel',
