@@ -10,5 +10,15 @@ setup(name='ferriswheel',
       packages=['ferriswheel'],
       install_requires=[
           'emoji',
+      ]
+      project_urls={
+        "Bug Tracker": "https://github.com/randomairborne/ferriswheel",
+      },
+      classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
       ],
-      zip_safe=False)
+      package_dir={"": "src"},
+      packages=setuptools.find_packages(where="src"),
+      python_requires=">=3.6",)
