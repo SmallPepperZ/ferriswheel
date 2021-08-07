@@ -10,7 +10,7 @@ setup(name='ferriswheel',
       packages=['ferriswheel'],
       install_requires=[
           'emoji',
-      ]
+      ],
       project_urls={
         "Bug Tracker": "https://github.com/randomairborne/ferriswheel",
       },
