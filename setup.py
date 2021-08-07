@@ -7,7 +7,6 @@ setup(name='ferriswheel',
       author='valkyrie_pilot',
       author_email='valk@randomairborne.dev',
       license='LGPL',
-      packages=['ferriswheel'],
       install_requires=[
           'emoji',
       ],
