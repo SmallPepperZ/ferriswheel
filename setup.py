@@ -1,4 +1,4 @@
-version='0.0.1.5' # change this to change the version
+version='0.0.1.6' # change this to change the version
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:

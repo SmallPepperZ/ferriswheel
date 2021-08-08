@@ -6,7 +6,7 @@ api_uri = "https://api.ferris.chat/api/v0/"
 async def run_client(token: str):
     auth_headers = {"Authorization": token}
 
-    async with aiohttp.ClientSession(headers=authheaders) as session:
+    async with aiohttp.ClientSession(headers=auth_headers) as session:
         async with session.get(api_uri) as response:
 
             print("Status:", response.status)
