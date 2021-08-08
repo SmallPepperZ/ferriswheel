@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(name='ferriswheel',
-      version='0.0.1.2',
+      version='0.0.1.3',
       description='https://ferris.chat API library',
       url='http://github.com/randomairborne/ferriswheel',
       author='valkyrie_pilot',

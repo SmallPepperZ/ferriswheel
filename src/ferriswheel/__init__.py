@@ -9,8 +9,6 @@ async def main():
         async with session.get(api_uri) as response:
 
             print("Status:", response.status)
-            print("Content-type:", response.headers['content-type'])
-
             html = await response.text()
             print("Body:", html[:15], "...")
 
