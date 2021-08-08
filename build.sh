@@ -1,5 +1,4 @@
 #!/bin/bash
-su gxhut
 cd /home/gxhut/ferriswheel/
 git fetch
 git reset --hard origin/main
