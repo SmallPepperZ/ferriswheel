@@ -1,4 +1,7 @@
+
 # ferriswheel
+[![PyPi Version](https://img.shields.io/pypi/v/ferriswheel)](https://pypi.org/project/ferriswheel/)
+
 An API for [ferrischat](https://ferris.chat)
 
 ### As ferrischat is not yet done, this library is also a work in progress!!
